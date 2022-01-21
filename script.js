@@ -156,6 +156,7 @@ console.log(diff_minutes(dt1, dt2));
 
 
 
+
 function diff_hours(dt2, dt1) 
  {
 
