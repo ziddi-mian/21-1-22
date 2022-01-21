@@ -74,10 +74,6 @@ console.log(timezone_offset_in_seconds(dt));
 // Output :
 // "Sat Nov 02 2024 00:00:00 GMT+0530 (India Standard Time)"
 
-
-
-
-
 function add_years(dt,n) 
  {
  return new Date(dt.setFullYear(dt.getFullYear() + n));      
@@ -88,6 +84,7 @@ console.log(add_years(dt, 10).toString());
 
 dt = new Date(2014,10,2);
 console.log(add_years(dt, 10).toString());
+
 
 
 // Write a JavaScript function to add specified weeks to a date.   
