@@ -55,10 +55,6 @@ console.log(diff_to_GMT(dt));
 // 19800
 
 
-
-
-
-
 function timezone_offset_in_seconds(dt) 
 { 
    return -dt.getTimezoneOffset() * 60;
@@ -69,6 +65,7 @@ console.log(timezone_offset_in_seconds(dt));
 
 dt = new Date(1989, 10, 1); 
 console.log(timezone_offset_in_seconds(dt));
+
 
 
 // Write a JavaScript function to add specified years to a date.   
